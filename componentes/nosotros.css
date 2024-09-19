@@ -1,0 +1,176 @@
+/* Fondo base de la pagina */
+
+body { 
+    font-family: 'sanvito,corsiva';
+    margin: 20px;
+    background-color: #d79adc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #af3096; 
+}
+
+/* Fondo para Smam Store */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3d0482;
+    color: #fff;
+}
+
+/* Diseño menu 1 */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fa1414;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(233, 229, 229, 0.862);
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown-menu li {
+    padding: 8px 12px;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Diseño de fondo de la barra de navegación */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
+    color: hsla(120, 23%, 94%, 0); /* Color del texto */
+    padding: 10px 0; /* Espaciado interno */
+
+}
+
+/* Estilos container de productos*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Estilo imagen logo */
+.logo {
+    width: 100px; /* Ancho deseado */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-right: 20px; /* Espaciado entre el logo y los enlaces de navegación */
+}
+
+/* Estilos para barra de busqueda */
+form {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links li:first-child {
+    margin-left: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+    color: #ccc;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.slider-frame {
+	width: 1280px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}

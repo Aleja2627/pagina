@@ -1,0 +1,60 @@
+/* Fondo floral para todo el cuerpo */
+body {
+    background-image: url('https://path/to/your/floral-background.jpg'); /* Ruta a una imagen de fondo floral */
+    background-size: cover; /* Para que la imagen cubra todo el fondo */
+    background-attachment: fixed; /* Para que el fondo no se mueva con el contenido */
+    color: #333; /* Color de texto general */
+    font-family: 'Georgia', serif; /* Fuente elegante */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+    border-bottom: 2px solid #f4d7da; /* Borde rosado claro */
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2rem; /* Tamaño de fuente grande */
+    color: #d46a92; /* Color rosado para la marca */
+    text-transform: uppercase;
+}
+
+/* Botones con colores pasteles y bordes redondeados */
+button.btn-primary {
+    background-color: #f4a3c7; /* Rosado suave */
+    border: none; /* Sin borde */
+    border-radius: 25px; /* Bordes redondeados */
+    color: white; /* Texto blanco */
+    padding: 10px 20px;
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+button.btn-primary:hover {
+    background-color: #d46a92; /* Cambia a un rosado más oscuro en hover */
+}
+
+/* Estilos para el modal */
+.modal-header {
+    background-color: #f4a3c7; /* Fondo rosado claro */
+    color: white;
+    border-top-left-radius: 15px; /* Bordes redondeados */
+    border-top-right-radius: 15px;
+}
+
+.modal-body {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco translúcido */
+    padding: 20px;
+}
+
+.modal-footer {
+    background-color: #f4a3c7; /* Rosado suave para el pie del modal */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Estilos para los inputs del formulario */
+input.form-control {
+    border-radius: 15px; /* Bordes redondeados */
+}

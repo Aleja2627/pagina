@@ -1,0 +1,211 @@
+/* Fondo base de la pagina */
+
+body { 
+    font-family: 'sanvito,corsiva';
+    margin: 20px;
+    background-color: #c7b0c9;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #af3096; 
+}
+
+/* Fondo para Smam Store */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4e0e52;
+    color: #fff;
+}
+
+/* Diseño menu 1 */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(233, 229, 229, 0.862);
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown-menu li {
+    padding: 8px 12px;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Diseño de fondo de la barra de navegación */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
+    color: hsla(120, 23%, 94%, 0); /* Color del texto */
+    padding: 10px 0; /* Espaciado interno */
+
+}
+
+/* Estilos container de productos*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Estilo imagen logo */
+.logo {
+    width: 100px; /* Ancho deseado */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-right: 20px; /* Espaciado entre el logo y los enlaces de navegación */
+}
+
+/* Estilos para barra de busqueda */
+form {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Diseño bordes y recuadro */
+.container {
+    width: 500px;
+    margin: 0 auto; /* Esto centrará el contenedor horizontalmente */
+    padding: 30px;
+    border: 2px solid #f9f9f9;
+    border-radius: 15px;
+    background-color: #541e84; /* Cambia el color de fondo a gris claro */
+}
+
+/* Tamaño titulo */
+ h1 {
+    text-align: center;
+    color: aliceblue;
+    
+    
+}
+.container form {
+    text-align: left;
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    color: #fffdfd;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="tel"],
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(111, 35, 146);
+}
+
+.container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: rgb(74, 34, 88);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*diseño de boton enviar*/
+button {
+    --width: 150px;
+    --timing: 2s;
+    border: 0;
+    width: var(--width);
+    padding-block: 1em;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    background: rgb(64, 192, 87);
+    transition: all 0.2s;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button {
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(234, 232, 237, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(40, 11, 67);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+   }
+   
+   button::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   button:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   button:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+
+   .container button {
+    display: block;
+    margin: 0 auto;
+}

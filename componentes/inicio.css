@@ -1,0 +1,32 @@
+/* Fondo base de la pagina */
+
+body { 
+    font-family: 'sanvito,corsiva';
+    margin: 20px;
+    background-color: #3d0482;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #af3096; 
+}
+
+/* Fondo para Smam Store */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3d0482;
+    color: #fff;
+}
+/* Estilo de la imagen del logo */
+.logo {
+    width: auto; /* Ajusta según el tamaño que quieras */
+    height: auto; /* Mantiene la proporción */
+    transition: transform 0.5s ease; /* Transición suave */
+}
+
+.logo.animate-logo {
+    transform: rotate(360deg) scale(1.1); /* Efecto de rotación y aumento */
+}
+
+
+
